@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>SIWE Quickstart</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+
+
+    <div class="min-h-screen flex items-center justify-center bg-gray-50">
+      <section onSubmit={handleSubmit} class="max-w-md w-full space-y-8">
+        <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">Log in to your account</h2>
+        
+
+        <button
+          id="connectWalletBtn"
+          class="mt-4 w-full inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+        >
+          Connect Wallet
+        </button>
+
+        <button
+          id="siweBtn"
+          class="mt-4 w-full inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+        >
+          Sign in with Ethereum
+        </button>
+
+        <button
+          id="infoBtn"
+          class="mt-4 w-full inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+        >
+          Get session information
+        </button>
+      </section>
+    </div>
+  </body>
+</html>
